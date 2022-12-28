@@ -1,0 +1,42 @@
+* {
+  padding: 0px;
+  margin: 0px;
+}
+
+body {
+  background-image: url(../../images/lpBackground.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: right;
+  color: #ffffff;
+}
+
+.container1 {
+  background-color: rgba(19, 18, 18, 0.9450980392);
+  width: 100%;
+  height: auto;
+}
+
+.topLogo {
+  width: 400px;
+}
+
+.paragraph {
+  margin: 8px 0px;
+}
+
+.btnSend {
+  color: #ff0052;
+  border: 1px solid #ff0052;
+}
+.btnSend:hover {
+  background-color: #ff0052;
+  color: #ffffff;
+}
+
+.footer {
+  margin-top: 30px;
+  margin-bottom: -30px;
+}
+
+/*# sourceMappingURL=style.css.map */
