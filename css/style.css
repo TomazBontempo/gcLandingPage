@@ -13,8 +13,13 @@ body {
 
 .container1 {
   background-color: rgba(19, 18, 18, 0.9450980392);
-  width: 100%;
+  width: 450px;
   height: auto;
+}
+@media (max-width: 450px) {
+  .container1 {
+    width: 100%;
+  }
 }
 
 .topLogo {

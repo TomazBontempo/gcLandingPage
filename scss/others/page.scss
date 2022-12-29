@@ -13,8 +13,12 @@ body {
 
 .container1 {
   background-color: $background-color;
-  width: 100%;
+  width: 450px;
   height: auto;
+
+  @media (max-width: 450px) {
+    width: 100%;
+  }
 }
 
 .topLogo {
